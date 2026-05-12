@@ -12,4 +12,11 @@ public abstract class MetodoPago
         Titular = titular;
         Monto = monto;
     }
+    
+    public virtual decimal CalcularComision()
+    {
+        return 0m;
+    }
+
+    public abstract void ProcesarPago();
 }
