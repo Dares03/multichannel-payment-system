@@ -1,6 +1,6 @@
 namespace MultichannelPaymentSystem.Models;
 
-class WalletPago : MetodoPago
+public class WalletPago : MetodoPago
 {
     public string WalletAddress {get; init;}
 

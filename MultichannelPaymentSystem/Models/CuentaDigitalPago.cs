@@ -1,6 +1,6 @@
 namespace MultichannelPaymentSystem.Models;
 
-class CuentaDigitalPago : MetodoPago
+public class CuentaDigitalPago : MetodoPago
 {
     public string Email {get; set;}
 
